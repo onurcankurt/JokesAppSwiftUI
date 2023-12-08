@@ -13,15 +13,26 @@ struct ContentView: View {
     
     var body: some View {
         
-        NavigationView{
+        NavigationStack{
             
             List(jokesVM.jokes) { element in
                 
                 Text(element.joke)
                 
             }
+            .toolbar {
+                Button(action: addJoke, label: {
+                    Text("Get New Joke")
+                })
+            }
             
-        }.navigationBarTitle(Text("Jokes App"))
+            .navigationTitle("Jokes App")
+            
+        }
+    }
+    
+    func addJoke(){
+        jokesVM.getJokes(count: 1)
     }
 }
 
