@@ -12,6 +12,7 @@
 		777049F12B23622D002C1ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777049F02B23622D002C1ECA /* Assets.xcassets */; };
 		777049F42B23622D002C1ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777049F32B23622D002C1ECA /* Preview Assets.xcassets */; };
 		777049FB2B23662F002C1ECA /* JokesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777049FA2B23662F002C1ECA /* JokesData.swift */; };
+		777049FD2B23687C002C1ECA /* JokesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777049FC2B23687C002C1ECA /* JokesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		777049F02B23622D002C1ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777049F32B23622D002C1ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		777049FA2B23662F002C1ECA /* JokesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesData.swift; sourceTree = "<group>"; };
+		777049FC2B23687C002C1ECA /* JokesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				777049EC2B23622C002C1ECA /* JokesAppSwiftUIApp.swift */,
 				777049EE2B23622C002C1ECA /* ContentView.swift */,
 				777049FA2B23662F002C1ECA /* JokesData.swift */,
+				777049FC2B23687C002C1ECA /* JokesViewModel.swift */,
 				777049F02B23622D002C1ECA /* Assets.xcassets */,
 				777049F22B23622D002C1ECA /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				777049EF2B23622C002C1ECA /* ContentView.swift in Sources */,
 				777049ED2B23622C002C1ECA /* JokesAppSwiftUIApp.swift in Sources */,
 				777049FB2B23662F002C1ECA /* JokesData.swift in Sources */,
+				777049FD2B23687C002C1ECA /* JokesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
